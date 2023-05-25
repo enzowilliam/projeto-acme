@@ -1,0 +1,31 @@
+<div class="main-login">
+  <div class="left-login">
+    <img src="../../../assets/ACME-Logo-1984.png" alt="logo" />
+  </div>
+  <form [formGroup]="form">
+    <div class="right-login">
+      <div class="card-login">
+        <h1>Login</h1>
+        <div class="text-field">
+          <label for="user">Usuário</label>
+          <input formControlName="user" type="text" placeholder="Usuário" />
+          <div *ngIf="userError" class="error-message">
+            Usuário é obrigatório.
+          </div>
+        </div>
+        <div class="text-field">
+          <label for="password">Senha</label>
+          <input
+            formControlName="password"
+            type="password"
+            placeholder="Senha"
+          />
+          <div *ngIf="passwordError" class="error-message">
+            Senha é obrigatória.
+          </div>
+        </div>
+        <button (click)="login()" type="submit" class="btn-login">LOGIN</button>
+      </div>
+    </div>
+  </form>
+</div>

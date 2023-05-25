@@ -1,0 +1,25 @@
+<app-header />
+<div class="container">
+  <table class="center-table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nome</th>
+        <th>CPF</th>
+        <th>Telefone</th>
+        <th>Endereço</th>
+        <th>CEP</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let cliente of clientes">
+        <td>{{ cliente.id }}</td>
+        <td>{{ cliente.nome }}</td>
+        <td>{{ cliente.cpf }}</td>
+        <td>{{ cliente.telefone }}</td>
+        <td>{{ cliente.logradouro }}</td>
+        <td>{{ cliente.CEP }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
