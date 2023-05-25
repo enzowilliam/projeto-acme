@@ -37,7 +37,7 @@
 }
 
 .card-login > h1 {
-  color: #f80000;
+  color: #d31c1c;
   font-weight: 800;
   margin: 0;
 }
@@ -65,16 +65,16 @@
 }
 
 .text-field > label {
-  color: #f90000de;
+  color: #d31c1c;
   margin-bottom: 10px;
   font-size: 15pt;
 }
 
-.text-field > input::placeholder{
-  color: #ff00004b;
+.text-field > input::placeholder {
+  color: #ff00006a;
 }
 
-.btn-login{
+.btn-login {
   width: 100%;
   padding: 16px 0px;
   margin: 25px;
@@ -84,6 +84,6 @@
   font-weight: 800;
   letter-spacing: 3px;
   color: #ffffff;
-  background: #f80000;
+  background: #d31c1c;
   cursor: pointer;
 }
