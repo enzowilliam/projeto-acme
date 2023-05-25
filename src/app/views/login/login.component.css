@@ -70,11 +70,11 @@
   font-size: 15pt;
 }
 
-.text-field > input::placeholder {
+.text-field > input::placeholder{
   color: #ff00006a;
 }
 
-.btn-login {
+.btn-login{
   width: 100%;
   padding: 16px 0px;
   margin: 25px;
